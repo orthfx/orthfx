@@ -1,34 +1,75 @@
-# Portfolio Starter Kit
+# orthfx
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+The official website for orthfx, an organization dedicated to building Orthodox Christian digital tools and resources.
+
+This site is built with **Next.js** and [Nextra](https://nextra.vercel.app/), featuring:
 
 - Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
+- Generates an RSS feed based on posts
 - A beautiful theme included out of the box
 - Easily categorize posts with tags
 - Fast, optimized web font loading
 
-## Configuration
+## About orthfx
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+orthfx develops open-source applications that help people engage with scripture, prayer, and Orthodox Christian content. Our projects range from Bible reading apps and Discord bots to multi-tenant platforms and subscription services, all built with modern web technologies like Next.js, React, and TypeScript.
 
-## Deploy your own
+## Projects
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+This website showcases five main projects:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/nextjs-portfolio-starter&project-name=portfolio&repository-name=portfolio)
+1. **Orthodox Reader** - A mobile-first Bible reading PWA with continuous scroll and audio narration
+2. **Orthodox NKJV** - A Node.js module with the complete NKJV Bible text in multiple formats
+3. **Pledge** - A subscription payments starter kit for SaaS applications
+4. **Orthobot** - A Discord bot that posts Bible passages when referenced
+5. **Sites** - A multi-tenant platform starter kit with custom domain support
 
-## How to use
+## Development
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Install dependencies:
 
 ```bash
-npx create-next-app --example blog my-blog
+npm install
 # or
-yarn create next-app --example blog my-blog
+yarn
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Visit `http://localhost:3000` to view the site.
+
+## Build
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Configuration
+
+1. Update organization info in `theme.config.js`
+2. Update site URL for the RSS feed in `scripts/gen-rss.js`
+3. Update meta tags in `pages/_document.js`
+4. Update posts inside `pages/posts/*.md` with your content
+
+## Deploy
+
+Deploy with [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+## Contact
+
+- GitHub: [ortho-fox](https://github.com/ortho-fox)
+- Email: orthofox@proton.me
+
+## License
+
+MIT
