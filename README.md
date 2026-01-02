@@ -67,7 +67,7 @@ Deploy with [Vercel](https://vercel.com):
 
 ## Contact
 
-- GitHub: [ortho-fox](https://github.com/ortho-fox)
+- GitHub: [orthfx](https://github.com/orthfx)
 - Email: orthofox@proton.me
 
 ## License
